@@ -15,7 +15,7 @@ static dispatch_once_t oncePredicate;
         // initialize self with the baseURL for us region
         _sharedClient = [[self alloc] initWithBaseURL:[NSURL URLWithString:@"http://us.battle.net"]];
     });
-    
+    NSLog(@"Yes");
     return _sharedClient;
 }
 
